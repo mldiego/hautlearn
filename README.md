@@ -7,13 +7,18 @@ This framework contains functions as follows:
 - FnGenerateHyst: generates a hybrid automation in Hyst data structure
 - FnHyst2State: converts Hyst data structure to Stateflow data structure
 
-# Run examples
+### Run examples
+
 Run the main function in each example to generate the "automata_learning.mdl" which will be in the "output_slsf_models" folder
 
-# Requirements
-control_toolbox
-map_toolbox
-matlab
-simulink
-stateflow
-symbolic_toolbox
+### Requirements (MATLAB)
+
+ - Control System Toolbox
+ - Mapping Toolbox
+ - Simulink
+ - Stateflow
+ - Symbolic Math Toolbox
+
+### References
+
+ * Xiaodong Yang, Omar Ali Beg, Matthew Kenigsberg, and Taylor T. Johnson, "A Framework for Identification and Validation of Affine Hybrid Automata from Input-Output Traces". ACM Trans. Cyber-Phys. Syst. 6, 2, Article 13 (April 2022), 24 pages. [https://doi.org/10.1145/3470455]
